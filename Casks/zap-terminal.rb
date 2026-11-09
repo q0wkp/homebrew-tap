@@ -1,15 +1,15 @@
 cask "zap-terminal" do
-  version "2026.07.09.2-mod.2"
+  version "2026.07.09.2-mod.3"
 
   on_arm do
-    sha256 "da96c0e01651ec468d380ed3f84c27796c93f21852e74ea2d3a74200253f0da9"
+    sha256 "92fc179063f602fa6a9d3a316c4e6cd511367d68e4ac0cedd55c1b8adfe9243e"
 
-    url "https://github.com/q0wkp/zap/releases/download/v2026.07.09.2-mod.2/Zap-arm64.dmg"
+    url "https://github.com/q0wkp/zap/releases/download/v2026.07.09.2-mod.3/Zap-arm64.dmg"
   end
   on_intel do
-    sha256 "9014d84addc9149def27e648651e2c750845c4fa9a26a4eaad2087cce096754a"
+    sha256 "bc54b44a5c71152340b3e4bfac05ff99f0abd3562260cc8a9cbd0a386c2e7980"
 
-    url "https://github.com/q0wkp/zap/releases/download/v2026.07.09.2-mod.2/Zap-intel.dmg"
+    url "https://github.com/q0wkp/zap/releases/download/v2026.07.09.2-mod.3/Zap-intel.dmg"
   end
 
   name "Zap"
