@@ -6,8 +6,12 @@ A Homebrew tap for my own builds.
 
 ```bash
 brew tap q0wkp/tap
+brew trust q0wkp/tap
 brew install q0wkp/tap/<name>
 ```
+
+The first two are needed once. `brew trust` lets Homebrew load everything in the tap: without it some versions refuse
+a package that names another of the tap. A Homebrew too old to know the command says so and needs none.
 
 `brew upgrade` keeps them up to date, except apps that update themselves. The packages, and their names for pacman and
 Pacstall, are listed in [q0wkp/pkgs](https://github.com/q0wkp/pkgs), whose Sync workflow writes `Casks/` and
